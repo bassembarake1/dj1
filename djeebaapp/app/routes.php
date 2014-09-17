@@ -16,7 +16,7 @@ Route::get('/', function()
 	return "ee";
 });
 
-Route::get('user', function()
+Route::get('/user', function()
 {
 	return "test";
 });
